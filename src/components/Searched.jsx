@@ -42,8 +42,8 @@ function Searched() {
 
   return (
     <div className="searchedSection">
-      <div>
-        <h2>Songs</h2>
+      <h2>Songs</h2>
+      <div className="cardContainer">
         {container.map((item) => {
           return (
             <div className="trackCard">
@@ -59,8 +59,8 @@ function Searched() {
           );
         })}
       </div>
-      <div>
-        <h2>Artists</h2>
+      <h2>Artists</h2>
+      <div className="cardContainer">
         {container2.map((item) => {
           return (
             <div className="trackCard">

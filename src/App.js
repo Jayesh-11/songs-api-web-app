@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <h1>Tune-Verse</h1>
+        <a href="/">
+          <h1>Tune-Verse</h1>
+        </a>
         <Search />
         <Pages />
       </BrowserRouter>

@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 input {
   width: 40vw;
@@ -12,4 +14,5 @@ input {
   border: none;
   padding: 2px 23px 2px 30px;
   outline: 0;
+  margin-left: 1vw;
 }
