@@ -20,6 +20,26 @@ body {
     #a85cb8,
     #ad52ac
   );
+  background-size: 400%;
+  -webkit-animation: bg-animation 200s infinite alternate;
+  animation: bg-animation 200s infinite alternate;
+}
+@-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 code {
