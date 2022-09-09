@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/songs-api-web-app/static/css/main.6ec63a87.css",
+    "main.js": "/songs-api-web-app/static/js/main.fd34b7d5.js",
+    "index.html": "/songs-api-web-app/index.html",
+    "main.6ec63a87.css.map": "/songs-api-web-app/static/css/main.6ec63a87.css.map",
+    "main.fd34b7d5.js.map": "/songs-api-web-app/static/js/main.fd34b7d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ec63a87.css",
+    "static/js/main.fd34b7d5.js"
+  ]
+}
