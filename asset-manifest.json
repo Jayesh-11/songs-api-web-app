@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/songs-api-web-app/static/css/main.6ec63a87.css",
-    "main.js": "/songs-api-web-app/static/js/main.fd34b7d5.js",
+    "main.css": "/songs-api-web-app/static/css/main.b3bc32d3.css",
+    "main.js": "/songs-api-web-app/static/js/main.0b688543.js",
+    "static/media/music-bg-3.jpg": "/songs-api-web-app/static/media/music-bg-3.482d2ea257705a46126a.jpg",
     "index.html": "/songs-api-web-app/index.html",
-    "main.6ec63a87.css.map": "/songs-api-web-app/static/css/main.6ec63a87.css.map",
-    "main.fd34b7d5.js.map": "/songs-api-web-app/static/js/main.fd34b7d5.js.map"
+    "main.b3bc32d3.css.map": "/songs-api-web-app/static/css/main.b3bc32d3.css.map",
+    "main.0b688543.js.map": "/songs-api-web-app/static/js/main.0b688543.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ec63a87.css",
-    "static/js/main.fd34b7d5.js"
+    "static/css/main.b3bc32d3.css",
+    "static/js/main.0b688543.js"
   ]
 }
