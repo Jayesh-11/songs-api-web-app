@@ -5,41 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: radial-gradient(
-    circle,
-    #36adff,
-    #48a6fd,
-    #589ef9,
-    #6796f5,
-    #758eef,
-    #8087e8,
-    #8a7fe1,
-    #9377d9,
-    #9b6ecf,
-    #a265c4,
-    #a85cb8,
-    #ad52ac
-  );
-  background-size: 400%;
-  -webkit-animation: bg-animation 200s infinite alternate;
-  animation: bg-animation 200s infinite alternate;
-}
-@-webkit-keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-}
-
-@keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
+  background-image: url(./Assets/music-bg-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 code {

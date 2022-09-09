@@ -87,6 +87,7 @@ function Searched() {
           );
         })}
       </Div2>
+      <Div4></Div4>
     </Div1>
   );
 }
@@ -105,7 +106,8 @@ const Div2 = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 3vh;
+  column-gap: 10vw;
+  /* gap: 10vw; */
 `;
 
 const Div3 = styled.div`
@@ -130,6 +132,7 @@ const ImgCard = styled.img`
 const H2 = styled.h2`
   text-align: center;
   font-family: "Fira Sans";
+  color: black;
 `;
 
 const H4 = styled.h4`
@@ -139,11 +142,11 @@ const H4 = styled.h4`
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 14ch;
+  color: black;
 `;
 
 const AudioPlayer1 = styled.audio`
-  ::-webkit-media-controls-panel,
-  video::-webkit-media-controls-panel {
+  ::-webkit-media-controls-panel {
     background-color: white;
   }
   position: fixed;
@@ -152,4 +155,10 @@ const AudioPlayer1 = styled.audio`
   padding: 0;
   background-color: white;
 `;
+
+const Div4 = styled.div`
+  height: 10vh;
+  width: 100vw;
+`;
+
 export default Searched;
